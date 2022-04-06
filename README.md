@@ -13,6 +13,7 @@ Download macro file and copy it to your printer configuration folder then includ
 * SPEED=1000 - mm/s movement speed, default is 20 mm/s
 * ACC=500 - acceleration, default is 500 mm/s
 * MOVES - how many moves to generate, default is 1
+* OFFSET - distance to axis limits, default is 25 mm (generated x,y,z coordinates will not be closer than this value to min and max axis positions)
 
 ## Examples
 ```
